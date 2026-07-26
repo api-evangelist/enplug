@@ -1,0 +1,21 @@
+{
+  "repo": "enplug",
+  "feeds": [
+    {
+      "source": "https://www.spectrio.com/feed/",
+      "feed_url": "https://www.spectrio.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://www.spectrio.com/support/",
+      "feed_url": "https://www.spectrio.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 12,
+  "fetched": "2026-07-25T15:00:33Z"
+}

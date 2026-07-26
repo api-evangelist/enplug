@@ -1,19 +1,44 @@
 aid: enplug
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/enplug.png
 name: Enplug
-description: Enplug is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Enplug is a cloud-based digital signage and content-management platform that powers communications
+  on screens across retail, hospitality, corporate, and public-venue locations, with content apps for
+  social feeds, dashboards, video, wayfinding, and menus managed from a central web dashboard. Enplug
+  was acquired by Spectrio, and enplug.com now redirects to Spectrio's Enplug acquisition page; the
+  legacy Enplug cloud login remains live at login.enplug.com. This API Evangelist profile was surfaced
+  as a 500 Global portfolio lead; Enplug exposes no public developer API, SDK, or documentation surface,
+  so this repo carries identity and domain-security signals only.
 url: https://raw.githubusercontent.com/api-evangelist/enplug/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
+x-acquired-by: Spectrio
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Digital Signage
+- Content Management
+- Screens
+- Retail
+- Hospitality
+- Advertising
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/enplug-domain-security.yml
 - type: Website
   url: https://enplug.com
+- type: Login
+  url: https://login.enplug.com/
+- type: Support
+  url: https://www.spectrio.com/support/
+- type: Blog
+  url: https://www.spectrio.com/blog/
+- type: Pricing
+  url: https://www.spectrio.com/pricing/
+- type: TermsOfService
+  url: https://www.spectrio.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.spectrio.com/privacy-policy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
